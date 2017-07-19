@@ -98,11 +98,11 @@
             .tabbable.panel.with-nav-tabs.panel-default, .panel-default>.panel-heading, .panel-default>.panel-heading, .table-responsive, .content-tools a {
                 color: var(--color-tLayerTwo);
                 background: var(--color-layerTwo) !important;
-                border-color: var(--color-layerOne);
+                border-color: var(--color-layerTwo);
             }
         /* Download Tile Border Radius */
             .content-box {
-                background: var(--color-layerOne);
+                background: var(--color-layerTwo);
             }
         /* Download Tile Header Text */
             .panel-default>.panel-heading {
@@ -195,9 +195,12 @@
             .progress.progress-bar-sm.zero-m > .progress-bar.progress-bar-success {
                 background-color: var(--color-layerFive) !important;
             }
+        /* Now Playing Bottom Margin */
+        #plexRowNowPlaying {
+            margin-bottom: 5px;
+        }
         /* Recently Added Tile Background */
             .box-shadow.content-box {
-                margin-top: 5px;
                 background: var(--color-layerTwo);
             }
         /* Recently Added Text */
@@ -238,7 +241,13 @@
             .slick-active {
                 color: var(--color-tLayerTwo);
             }
-        /* Recently Added Hover Animations */
+        /* Playlist Headers */
+            #plexPlaylists h5.text-center {
+                font-size: 18px;
+                font-weight: 500;
+                color: var(--color-tLayerOne);    
+            }
+        /* Media List Hover Animations */
             .slick-slide img {
                 max-width: 100%;
                 -moz-transition: all 0.3s;

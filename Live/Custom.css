@@ -18,8 +18,8 @@
             --color-loginLayerThree: #3d3d3d;
             --color-loginLayerFour: #000;
             --color-loginLayerFive: #46bc99;
-            --color-chatTLayerOne: #71cde5;
-            --color-chatTLayerTwo: #ffffff;
+            --color-loginTLayerOne: #71cde5;
+            --color-loginTLayerTwo: #ffffff;
     /* This block is for the Chat Page */
             --color-chatLayerOne: #3d3d3d;
             --color-chatLayerTwo: #272b30;
@@ -46,9 +46,14 @@
     /* \\\\\\\\\\\\\\\\\\\\\\\\\      User Settings      ///////////////////////// */
     /* /////////////////////////         End Edit        \\\\\\\\\\\\\\\\\\\\\\\\\ */
     /* \\\\\\\\\\\\\\\\\\\\\\\\\                         ///////////////////////// */
+<<<<<<< HEAD
     <style>
     <link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/leram84/layer.Cake/2949e3da/CSS/Custom/Global.css">
     <link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/leram84/layer.Cake/2949e3da/CSS/Custom/Calendar-Codes.css">
+=======
+    </style>
+    <link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/leram84/layer.Cake/master/CSS/Custom/Global.css">
+>>>>>>> pr/4
     <!-- /////////////////////////    CSS Add-On Links     \\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\     Section Below       ///////////////////////// -->
 
